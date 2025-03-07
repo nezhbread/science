@@ -1,0 +1,87 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    font-family: "Arial";
+}
+
+.background1, .background2, .background3{
+    position: relative;
+    opacity: 0.6;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background1{
+    background-image: url('https://media-cldnry.s-nbcnews.com/image/upload/newscms/2018_49/2669406/181204-japan-tsunami-earthquake-cs-920a.jpg');
+    min-height: 100%;
+}
+
+.background2{
+    background-image: url('https://i.natgeofe.com/n/0f9e3b7a-d3ca-4418-8e61-f605b4e04bc5/02-rikuzentakata-japan.jpg');
+    min-height: 350px;
+}
+
+.background3{
+    background-image: url('https://images.theconversation.com/files/132300/original/image-20160728-21561-uqjlvf.jpg?ixlib=rb-4.1.0&rect=0%2C217%2C2048%2C993&q=45&auto=format&w=1356&h=668&fit=crop');
+    min-height: 350px;
+}
+
+.buttondiv{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+}
+
+.button{
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 2px solid white;
+    color: white;
+    padding: 16px;
+    font-size: 22px;
+    letter-spacing: 8px;
+}
+
+
+
+.heading{
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+}
+
+.welcome{
+    color: #6b6a6a;
+    background-color: white;
+    text-align: center;
+    padding: 60px 50px;
+    text-align: justify;
+}
+
+.about{
+    color: #9c9b9b;
+    background-color: #232425;
+    text-align: center;
+    padding: 60px 50px;
+    text-align: justify;
+}
+
+.contact{
+    color: #232425;
+    background-color: white;
+    text-align: center;
+    padding: 60px 50px;
+    text-align: justify;
+}
+
+.wrapper{
+    position: relative;
+}
+p{
+    font-size: 125%;
+}
